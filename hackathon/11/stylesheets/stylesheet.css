@@ -1,0 +1,65 @@
+h1 {
+	font-size: 28px;
+	text-align: center;
+	padding-top: 20px;
+	color: #F8ECE0;
+    text-shadow: 2px 2px 4px #000000;
+}
+h3 {
+	text-align: center;
+	padding-bottom: 20px;
+	margin-top: -7px;
+	font-size: 23px;
+	color: #F8ECE0;
+    text-shadow: 2px 2px 4px #000000;
+}
+h4 {
+	position: relative;
+	left: 150px;
+	top: 30px;
+	font-size: 27px;
+	text-shadow: 2px 2px 2px #585858;
+}
+#p1 {
+	position: relative;
+	left: 150px;
+	top: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #585858;
+	color: #2A120A;
+}
+#p2 {
+	position: relative;
+	left: 150px;
+	top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #585858;
+	color: #2A120A;
+}
+#header {
+	background-color: #2E2E2E;
+	position: relative;
+	top: 2px;
+	right: -8px;
+	left: -8px;
+	width: 1440px;
+	font-family: sans-serif;
+}
+#line {
+	color: black;
+	position: relative;
+	top: 350px;
+}
+#footer {
+	position: relative;
+	top: 350px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #424242;
+}
+body {
+	background: url("../img/background.jpg");
+}

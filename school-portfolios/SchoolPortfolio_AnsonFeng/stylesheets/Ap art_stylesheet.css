@@ -1,0 +1,71 @@
+div {
+	border-radius: 5px;
+}
+
+#header {
+	position: fixed;
+	height: 60px;
+	background-color: black;
+	margin-top: -20px;
+	z-index: 1;
+	width: 100%;
+	margin-bottom: 10px;
+  color: white;
+}
+
+.left {
+	position: relative;
+	float: left;
+	width: 10%;
+	height: 700px;
+	background-color: gray;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.right h1{
+  text-align: center;
+  color: white;
+  font-family: Verdana;
+
+}
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 89%;
+	height: 700px;
+	background-color: #323232;
+	margin-bottom: 70px;
+
+}
+.right p {
+  margin-left: 10px;
+  color: white;
+  font-family: Times New Roman
+}
+
+.left a {
+	position: absolute;
+	margin-left: 5px;
+	font-family: Verdana, sans-serif;
+	margin-top: 20px;
+}
+
+.right img{
+  width:500px;
+  height:500px;
+}
+#footer {
+	position: fixed;
+	height: 50px;
+	background-color: black;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding-top: 8px;
+	bottom: 0px;
+	width: 100%;
+}

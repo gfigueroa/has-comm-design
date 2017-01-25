@@ -1,0 +1,42 @@
+body {
+	background:url("http://blog.hostbaby.com/wp-content/uploads/2014/03/PaintSwatches_1400x900.jpg"); 
+}
+
+h1 {
+	text-align: center; 
+	margin-top: 1cm; 
+	font-size: 40px; 
+	background-color: grey; 
+	border-radius: 50px; 
+	margin-left: 3cm; 
+	margin-right: 3cm; 
+}
+
+h2 {
+	margin-top: 2.3cm; 
+	margin-left: 2cm; 
+	font-size: 25px; 
+}
+
+.grey {
+	background-color: grey; 
+	border-radius: 50px; 
+	padding: 0.2cm; 
+	font-size: 15px; 
+	margin-left: 2cm; 
+	margin-right: 2cm; 
+}
+
+.not {
+	background-color: #d3d3d3; 
+	border-radius: 50px; 
+	padding: 0.2cm; 
+	font-size: 15px; 
+	margin-left: 2cm; 
+	margin-right: 2cm; 	
+}
+
+footer {
+	margin-top: 0.5cm; 
+	text-align: center; 
+}

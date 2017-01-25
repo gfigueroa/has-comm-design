@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title >SCHOOL PORFOLIO</title>
+        <link rel="stylesheet" type="text/css"
+		href="style/StyleSheet.css" />
+        
+    </head>
+    <body>
+        <div id="top">
+            <a href="index.html" id ="title">
+                <img src="images/logo.png" width="120px;">
+            </a>
+            <div class ="header"> 
+                &nbsp &nbsp SCHOOL &nbsp &nbsp PORTFOLIO
+            </div>
+        </div>
+        <header>
+            <nav id="primary_nav_wrap">
+                <ul>
+                    <li class="current-menu-item"><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a>
+                        <ul>
+                            <li><a href="#">2015-2016</a>
+                                <ul>
+                                    <li><a href="Algebra2.html"> Algebra 2</a></li>
+                                    <li><a href="APStudioArt.html"> AP Studio Art</a></li>
+                                    <li><a href="ConputerScience.html"> Conputer Science</a></li>
+                                    <li><a href="PreCalculus.html"> Pre-Calculus</a></li>
+                                    <li><a href="USHistory.html"> US History</a></li>
+                                    <li><a href="WorldLiterature.html"> World Literature</a></li>
+                                    <li><a href="WorldHistory.html"> World History</a></li>
+                                    <li><a href="Theater.html"> Theater</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">2016-2017</a>
+                                <ul>
+                                    <li><a href="AmericanLiterature.html"> American Literature</a></li>
+                                    <li><a href="BeginingWriting.html"> Begining Writing</a></li>
+                                    <li><a href="CommDesign.html"> Comm Design</a></li>
+                                    <li><a href="CollegeEssay.html"> College Essay</a></li>
+                                    <li><a href="Statistics.html"> Statistics</a></li>
+                                    <li><a href="Physics.html"> Physics</a></li>
+                                    <li><a href="PaintingandDrawing.html"> Painting and Drawing</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <article class="w3-container">
+            <div class="w3-content w3-display-container" style="max-width:800px">
+                <img class="mySlides" src="images/school.png" style="width:100%">
+                <img class="mySlides" src="images/12121.png" style="width:100%">
+                <img class="mySlides" src="images/homecoming.png" style="width:100% " >
+                    <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                        <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                        <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    </div>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function currentDiv(n) {
+                    showDivs(slideIndex = n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("demo");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" w3-white", "");
+                    }
+                    x[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " w3-white";
+                }
+            </script>
+        </article>
+        <!--<div id="ad">
+            <img src="http://uni-mafumafu.jp/wp-content/themes/mafumafu/images/img_kyoukasuigetsu.png" width="300px"/>
+</div>!-->
+</body>
+<footer class ="footer">
+    <div class = "icon">
+        <a href="https://www.instagram.com/has_wolves/"><img src="images/ig_icon.ico" width="30px;"></a>            <a href="https://www.facebook.com/has.hc.edu.tw"><img src="images/fb_icon.png" width="30px;"></a>
+       <a href="mailto:admission@has.hc.edu.tw "><img src="images/gmail_icon.ico" width="30px;"></a>
+    </div>
+    </footer>
+</html>

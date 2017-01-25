@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>June Entries</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <style>
+            /*Navigation bar*/
+            ul {
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                text-align: center;
+                background-color: black
+            }
+            li {
+                height: 24px;
+                display:inline;
+            }
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                font-size: 16px;
+                font-family: copperplate;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: #999999;
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index:1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            /*Page*/
+            div.container {
+                width: 100%;
+            }
+            .container{
+                height:100px;
+                width:500px;
+                border-left:none;
+                border-right:none;
+                text-align:justify;
+                word-wrap: break-word;
+            }
+            .container div{
+                display: inline-block;
+                vertical-align: middle;
+                height:auto;
+            } 
+            .column-main{
+                float:left; width: 1240px;
+                background-image: url('Images/white1.png');
+                position: absolute;
+                left: 20px;
+                right:20px;
+            }
+            .column-text{
+                float: none; width: 92%;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+            .column-image{
+                float: none; width: 30%;
+                margin-left: 80%;
+                margin-right: 2%;
+            }
+            .column-subtitle{
+                float:none; width: 96%;
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            .column-footerleft{
+                float: left; width: 300px;
+                height: 35px;
+                position: absolute;
+                left: 20px;
+                top: 270px;
+                font-size: 13px;
+                font-family: times new roman;
+            }
+            .column-footerright{
+                float: right; width: 400px;
+                position: absolute;
+                right: 20px;
+                top: 270px;
+                text-align: right;
+                font-size: 13px;
+                font-family: times new roman;
+            }
+            /*Content*/
+            body{
+                background-image: url('http://wallpaper.zone/img/2124910.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            h3{
+                font-family: impact;
+                text-align: center;
+            }
+            p{
+                font-family: times new roman;
+                font-size: 16px;
+            }
+            weekNum{
+                font-family: times new roman;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            img{
+                height:150px;
+                width:250px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--Title-->
+        <header>
+            <h1 style="font-family: Brush Script MT; text-align:center">Peggy Lee's Journal Entries</h1> 
+        </header>
+        <!--Navigation bar-->
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">2016</a>
+                <div class="dropdown-content">
+                    <a href="2016august.html">August</a>
+                    <a href="2016september.html">September</a>
+                    <a href="2016october.html">October</a>
+                    <a href="2016november.html">November</a>
+                    <a href="2016december.html">December</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">2017</a>
+                <div class="dropdown-content">
+                    <a href="2017january.html">January</a>
+                    <a href="2017february.html">February</a>
+                    <a href="2017march.html">March</a>
+                    <a href="2017april.html">April</a>
+                    <a href="2017may.html">May</a>
+                    <a href="2017june.html">June</a>
+                </div>
+            </li>
+        </ul>
+        <br/>
+        <!--Split page-->
+        <div class="container">
+            <div class="column-main">
+                <div class="column-subtitle">
+                    <h3>~~~ June Entries ~~~</h3>
+                </div>
+                <div class="column-text">
+                    <p style = "text-align: center">This section will be updated soon. Stay tuned!</p>
+                </div>
+            </div>
+            <footer>
+                <div class="column-footerleft">
+                    Copyright &copy; 2016 Peggy Lee
+                </div>
+                <div class="column-footerright">
+                    Have questions? Contact me at lee.peggy1126@gmail.com
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

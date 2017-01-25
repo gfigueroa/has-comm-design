@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>School Portfolio</title>
+        <link rel="stylesheet" href="Styles/stylesheet_home.css" type="text/css"/>
+    </head>
+        
+    <body>
+        <!--Title-->
+        <div id="title">
+            School Portfolio
+        </div>
+        <!--Navigation bar-->
+        <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="http://has.hc.edu.tw/about/" target="_blank">About</a></li>
+                <li><a href="http://has.hc.edu.tw/about/contact-us/" target="_blank">Contact</a></li>
+                <li class="dropdown">
+                <a href="#" class="dropbtn">2015-16</a>
+                <div class="dropdown-content">
+                    <a href="10th_APPHY.html">AP Physics</a>
+                    <a href="10th_USHIS.html">US History</a>
+                    <a href="10th_AMLIT.html">American Literature</a>
+                    <a href="10th_THT.html">Theatre</a>
+                    <a href="10th_PRECALC.html">Pre-Calculus</a>
+                    <a href="10th_JOURN.html">Journalism</a>
+                    <a href="10th_APCS.html">AP Computer Science</a>
+                    <a href="10th_SPAN2.html">Spanish II</a>
+                </div>
+                </li>
+                <li class="dropdown">
+                <a href="#" class="dropbtn">2016-17</a>
+                <div class="dropdown-content">
+                    <a href="11th_CHEM.html">Chemistry</a>
+                    <a href="11th_APCALC.html">AP Calculus</a>
+                    <a href="11th_PSYCH.html">Psychology</a>
+                    <a href="11th_COMMD.html">Communication Design</a>
+                    <a href="11th_SOCIO.html">Sociology</a>
+                    <a href="11th_STATS.html">Statistics</a>
+                    <a href="11th_APCHI.html">AP Chinese</a>  
+                </div>
+                </li>
+                <li><a href="extracurriculars.html">Extracurriculars</a></li>
+            </ul>
+        
+        <div class="quickSearch">
+            <button onclick="myFunction()">&#128270;&ensp;Click to Quick Search</button>
+            <p id="demo"></p>
+            <script>
+                function myFunction() {
+                    var person = prompt("Enter the index for a course: " + "\n" + "\n" + "Index" + "\t" + "Course" + "\n" + "APPHY" + "\t" + "AP Physics" + "\n" + "USHIS" + "\t" + "US History" + "\n" + "AMLIT" + "\t" + "American Literature" + "\n" + "THT" + "\t" + "\t" + "Theatre" + "\n" + "\n" + "PRECALC" + "\t" + "PreCalculus" + "\n" + "JOURN" + "\t" + "Journalism" + "\n" + "APCS" + "\t" + "AP Computer Science" + "\n" + "SPAN2" + "\t" + "Spanish II" + "\n" + "\n" + "CHEM" + "\t" + "Chemistry" + "\n" + "APCALC" + "\t" + "AP Calculus" + "\n" + "PSYCH" + "\t" + "Psychology" + "\n" + "COMMD" + "\t" + "Communication Design" + "\n" + "\n" + "SOCIO" + "\t" + "Sociology" + "\n" + "STATS" + "\t" + "Statistics" + "\n" + "APCHI" + "\t" + "AP Chinese");
+                    if (person == "APPHY") {
+                        window.open("10th_APPHY.html");
+                    }
+                    else if (person == "USHIS") {
+                        window.open("10th_USHIS.html");
+                    }
+                    else if (person == "AMLIT") {
+                        window.open("10th_AMLIT.html");
+                    }
+                    else if (person == "THT") {
+                        window.open("10th_THT.html");
+                    }
+                    
+                    else if (person == "PRECALC") {
+                        window.open("10th_PRECALC.html");
+                    }
+                    else if (person == "JOURN") {
+                        window.open("10th_JOURN.html");
+                    }
+                    else if (person == "APCS") {
+                        window.open("10th_APCS.html");
+                    }
+                    else if (person == "SPAN2") {
+                        window.open("10th_SPAN2.html");
+                    }
+                    
+                    else if (person == "CHEM") {
+                        window.open("11th_CHEM.html");
+                    }
+                    else if (person == "APCALC") {
+                        window.open("11th_APCALC.html");
+                    }
+                    else if (person == "PSYCH") {
+                        window.open("11th_PSYCH.html");
+                    }
+                    else if (person == "COMMD") {
+                        window.open("11th_COMMD.html");
+                    }
+                    
+                    else if (person == "SOCIO") {
+                        window.open("11th_SOCIO.html");
+                    }
+                    else if (person == "STATS") {
+                        window.open("11th_STATS.html");
+                    }
+                    else if (person == "APCHI") {
+                        window.open("11th_APCHI.html");
+                    }
+                }
+            </script>
+        </div>
+        
+    </body>
+    
+    <footer>
+        &copy; Peggy Lee
+    </footer>
+</html>

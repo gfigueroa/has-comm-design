@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/course.css" type="text/css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+      .mySlides {display:none;}
+    </style>
+    <title>PRECALCULUS</title>
+  </head>
+  <body style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/mathbk.jpg')">
+    <div class="name_nav">
+      <h1 id="title">PRECALCULUS</h1>
+      <hr id="line">
+      <div class="navi">
+        <a href="index.html" id="navbtn">HOME</a>
+        <div class="dropdown">
+          <button class="dropbtn">COURSES</button>
+          <div class="dropdown-content">
+            <a href="201516courses.html">2015 - 2016</a>
+            <a href="201617courses.html">2016 - 2017</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main id="main">
+      <ul>
+        <li>Teacher name: Mr. Kerr</li>
+        <li>Course description:<br>
+          In this course, as suggested by the name of the course, we learned the basics of calculus through lectures and examples explained by Mr.Kerr.
+          Examples of topics learned include polynomial division, partial fraction decomposition, and identities.
+          During class, Mr. Kerr would first explain sample questions from the textbook and students will then attempt similar problem types.
+          We were given worksheets related to the concepts every single class and instructed to complete them before the end of class.
+          For homework, Mr. Kerr would usually assigned practice questions from the textbook which vary in complexity.
+        </li>
+        <li>Examples of major work done in the class:</li>
+      </ul>
+        <div class="slideshow">
+          <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides" src="img/s1.jpg" style="width:100%">
+            <img class="mySlides" src="img/s2.jpg" style="width:100%">
+            <img class="mySlides" src="img/s3.jpg" style="width:100%">
+            <img class="mySlides" src="img/s4.jpg" style="width:100%">
+            <img class="mySlides" src="img/s5.jpg" style="width:100%">
+            <img class="mySlides" src="img/s6.jpg" style="width:100%">
+            <img class="mySlides" src="img/s7.jpg" style="width:100%">
+          </div>
+          <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}
+              x[myIndex-1].style.display = "block";
+              setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+            </script>
+        </div>
+    </main>
+    <footer>
+      <div class="social">
+        <div class="menu-social-menu-container"><ul id="menu-social-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2786"><a target="_blank" href="http://www.facebook.com/cathylululu"><i class="fa fa-facebook-f"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2793"><a target="_blank" href="https://twitter.com/itscathydou"><i class="fa fa-twitter"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2796"><a target="_blank" href="https://www.pinterest.com/cathylululu/"><i class="fa fa-pinterest-p"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2797"><a target="_blank" href="http://instagram.com/itscathydou"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

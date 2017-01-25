@@ -1,0 +1,87 @@
+body{
+  font-family:Century Gothic, sans-serif;
+  background: url("../img/indexBackground.png");
+  background-size: cover;
+}
+
+.nav{
+  padding-left: 65%;
+}
+/* Set the parent <li>'s CSS position property to 'relative' */
+.nav ul {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: none;
+}
+
+/*The CSS to hide the sub menus*/
+.nav li ul{
+  display: none;
+}
+
+.nav li a{
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.nav ul li a:hover{
+  background: #2c3e50;
+}
+
+/*Displays the dropdown menu on hover*/
+
+.nav li:hover > ul{
+  display: block;
+  position: absolute;
+}
+
+.nav li:hover li{
+  float: none;
+}
+
+.nav li:hover a{
+  background: none;
+}
+
+.nav li:hover li a:hover{
+  background: #2c3e50;
+}
+
+.nav .main-navigation li ul li {
+  border-top:0;
+}
+
+/* Displays second level dropdown menus to the right of the first level
+drop down menu*/
+.nav ul ul ul{
+  left: 100%;
+  top: 0;
+}
+
+/* Simple clearfix*/
+.nav ul:before, ul:after{
+  content: "  ";
+  display: table;
+}
+
+.nav ul:after{
+  clear: both;
+}
+footer{
+  position: fixed;
+  color: white;
+  text-align: center;
+  bottom: 0px;
+  padding-left:35%;
+}

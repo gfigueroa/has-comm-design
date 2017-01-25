@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>November Entries</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <style>
+            /*Navigation bar*/
+            ul {
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                text-align: center;
+                background-color: black
+            }
+            li {
+                height: 24px;
+                display:inline;
+            }
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                font-size: 16px;
+                font-family: copperplate;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: #999999;
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index:1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            /*Page*/
+            div.container {
+                width: 100%;
+            }
+            .container{
+                height:100px;
+                width:500px;
+                border-left:none;
+                border-right:none;
+                text-align:justify;
+                word-wrap: break-word;
+            }
+            .container div{
+                display: inline-block;
+                vertical-align: middle;
+                height:auto;
+            } 
+            .column-main{
+                float:left; width: 1240px;
+                background-image: url('Images/white1.png');
+                position: absolute;
+                left: 20px;
+                right:20px;
+            }
+            .column-text{
+                float: none; width: 92%;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+            .column-image{
+                float: none; width: 30%;
+                margin-left: 80%;
+                margin-right: 2%;
+            }
+            .column-subtitle{
+                float:none; width: 96%;
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            .column-footer{
+                float: left; 
+                height: 35px;
+                position: absolute;
+                left: 20px;
+                top: 930px;
+                font-size: 13px;
+                font-family: times new roman;
+            }
+            emailLink{
+                color: blue;
+            }
+            /*Content*/
+            body{
+                background-image: url('http://wallpaper.zone/img/2124910.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            h3{
+                font-family: impact;
+                text-align: center;
+            }
+            p{
+                font-family: times new roman;
+                font-size: 16px;
+            }
+            weekNum{
+                font-family: times new roman;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            img{
+                height:150px;
+                width:250px;
+            }
+            citationSymbol{
+                font-size: 40px;
+            }
+            citation{
+                font-family: times new roman;
+                font-size: 16px;
+                font-style: italic;
+                line-height: 30px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--Title-->
+        <header>
+            <h1 style="font-family: Brush Script MT; text-align:center">Peggy Lee's Journal Entries</h1> 
+        </header>
+        <!--Navigation bar-->
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">2016</a>
+                <div class="dropdown-content">
+                    <a href="2016august.html">August</a>
+                    <a href="2016september.html">September</a>
+                    <a href="2016october.html">October</a>
+                    <a href="2016november.html">November</a>
+                    <a href="2016december.html">December</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">2017</a>
+                <div class="dropdown-content">
+                    <a href="2017january.html">January</a>
+                    <a href="2017february.html">February</a>
+                    <a href="2017march.html">March</a>
+                    <a href="2017april.html">April</a>
+                    <a href="2017may.html">May</a>
+                    <a href="2017june.html">June</a>
+                </div>
+            </li>
+        </ul>
+        <br/>
+        <!--Split page-->
+        <div class="container">
+            <div class="column-main">
+                <div class="column-subtitle">
+                    <h3>~~~ November Entries ~~~</h3>
+                </div>
+                
+                <div class="column-text">
+                    <main id="week11">
+                        <br/>
+                        <weekNum>Week 11 <em>&#40;updated on 11/6&#41;</em></weekNum>
+                        <p>It’s the first week of November!</p>
+
+                        <p>This week, we continued working on our LearningCSS website. Using &ldquo;position: fixed&rdquo;, we can make elements stay where they are when the page is being scrolled up and down. In addition, &ldquo;display: inline&rdquo; and margins left and right allow programmers to make lists horizontal.</p>
+
+                        <p>We were also told to recreate the HAS Computer Science website with HTML and CSS. While troublesome, it was a great way to practice on margins, paddings, and borders. I even figured out how to use &lt;textarea&gt;. The function of placeholders seemed really cool.</p>
+                    </main>
+                </div>
+                
+                <div class="column-text">
+                    <main id="week12">
+                        <br/>
+                        <weekNum>Week 12 <em>&#40;updated on 11/13&#41;</em></weekNum>
+                        <p><strong>JOKE 1</strong>
+                            <br/>
+                            &#35;titantic &#123;
+                            <br/>
+                            &emsp;&ensp;float: none;
+                            <br/>
+                            &#125;
+                        </p>
+                        
+                        <p><strong>JOKE 2</strong>
+                            <br/>
+                            .monarch &#123;
+                            <br/>
+                            &emsp;&ensp;position: inherit;
+                            <br/>
+                            &#125;
+                        </p>
+                        
+                        <p>HAHAHA They sound humorous, don’t they?
+                           <br/>
+                           Guess what, we were messing with these properties this week XD
+                        </p>
+
+                        <p>Again, we were working on the LearningCSS website. We learnt about the different CSS positioning like static, relative, and absolute. There is also a special case, where the parent is relative and the child is absolute. We were also introduced to a new property, called &quot;float&quot;. It is usually used together with &quot;position: relative&quot;. Floating to the right means that a div will stick to the right at all times, and otherwise.</p>
+
+                        <p>Our homework for the weekend was to recreate the semantic table using CSS properties. To me, it was a piece of cake. I completed it in an hour.</p>
+                    
+                    </main>
+                </div>
+                
+            </div>
+            <footer>
+                <div class="column-footer">
+                    Copyright &copy; 2016 Peggy Lee
+                    <br/>
+                    Have questions? Contact me at <a href = "mailto:lee.peggy1126@gmail.com"><emaillink>lee.peggy1126@gmail.com</emaillink></a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

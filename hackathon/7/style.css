@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	font-family: Garamond;	
+}
+
+h2 {
+	margin-left: 180px;
+	font-family: Verdana;
+	font-size: 21px;
+}
+
+#students {
+	margin-left: 180px;
+	font-family: Verdana;
+}
+
+p {
+	margin-left: 195px;
+	font-size: 14px;
+	color: black;
+	font-family: Cursive;
+	margin-bottom: -5px;
+}
+
+.footer {
+	text-align: center;
+	font-size: 10px;
+}

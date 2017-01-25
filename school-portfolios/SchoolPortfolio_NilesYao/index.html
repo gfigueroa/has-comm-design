@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>School Portfolio:Niles </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet_1.css">
+	</head>
+	
+	<body background="img/video-games_00389057.png">
+		<header>
+				<h1>School Portfolio:Niles</h1>
+				<div class="dropdown">
+				  <span>2015-2016</span>
+				  <div class="dropdown-content">
+					<a href="geometry.html">Geometry</a><br>
+					<a href="spanish_1.html">Spanish I</a><br>
+					<a href="biology.html">Biology</a><br>
+					<a href="world_literature.html">World Literature</a><br>
+					<a href="us_history.html">US History</a><br>
+					<a href="comp_sci.html">Computer Science</a><br>
+					<a href="PE.html">P.E.</a><br>
+					<a href="hist_flm.html">History of Film</a><br>
+				  </div>
+				</div>
+				<div><a href="index.html">Homepage</a></div>
+				<div class="dropdown2">
+				  <span>2016-2017</span>
+				  <div class="dropdown-content2">
+					<a href="algebra_2.html">Algebra II</a><br>
+					<a href="spanish_2.html">Spanish II</a><br>
+					<a href="chemistry.html">Chemistry</a><br>
+					<a href="american_literature.html">American Literature</a><br>
+					<a href="world_history.html">World History</a><br>
+					<a href="comm_design.html">Communication Design</a><br>
+					<a href="adv_writing.html">Advanced Writing</a><br>
+					<a href="journalism.html">Journalism</a><br>
+				  </div>
+				</div>
+		</header>
+		<main>
+			<div class="header_talk">
+				<h1>This is a Website for Documenting my school<br>
+				years and the classes I took during those years.</h1>
+			</div>
+			<div class="section_1">
+				<div class="w3-content w3-display-container">
+				  <img class="mySlides" id="pictures" src="img/10948945.jpg" style="width:100%">
+				  <img class="mySlides" id="pictures" src="img/has_logo_large.png" style="width:100%; height: 900px;">
+				  <img class="mySlides" id="pictures" src="img/marvel_doctor_strange-wide.jpg" style="width:100%; height:900px;">
+
+				  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+				  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+				</div>
+
+				<script>
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+				  showDivs(slideIndex += n);
+				}
+
+				function showDivs(n) {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides");
+				  if (n > x.length) {slideIndex = 1}
+				  if (n < 1) {slideIndex = x.length}
+				  for (i = 0; i < x.length; i++) {
+					 x[i].style.display = "none";
+				  }
+				  x[slideIndex-1].style.display = "block";
+				}
+				</script>
+			</div>
+			<div class="section_2">
+				<div>
+					<h1>About Me</h1>
+				</div>
+				<div>
+					<div>
+						<p> 
+							<br>
+							Name: Niles Yao <br>
+							Age: 15<br>
+							Grade: 10th<br>
+							Year: 2016-2017<br>
+							School:<a src="http://has.hc.edu.tw/"> Hsinchu American School</a><br>
+							<br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,222 @@
+.header{
+  background-color: white;
+  font-family: fantasy, serif;
+  font-size: 25px;
+  color: black;
+  position: fixed;
+  text-align: left;
+  margin-top: -20px;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+#pheader{
+    margin-left: 20px;
+	font-weight: 400;
+    
+}
+
+#pheader a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#pheader a:hover{
+    background-color:darkgrey;
+}
+    
+a:visited{
+    color: black;
+}
+
+nav{
+    float: right;
+    margin-top: -60px;
+    font-family: fantasy, serif;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+nav a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:link{
+    color:black;
+}
+
+nav a:hover{
+    background-color: darkgrey; 
+}
+
+.bottom{
+    background-color: white;
+    font-family: fantasy, serif;
+    font-size: 16px;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 1000px;
+    margin-top: 90px;
+    margin-left: -5px;
+    margin-right: -8px;
+    margin-bottom: 70px;
+  
+}
+
+
+.middle{
+  background-color: white;
+  font-family: fantasy, serif;
+  font-size: 16px;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 900px;
+  margin-top: 90px;
+  margin-left: -6px;
+  margin-right: -6px;
+  margin-bottom: 70px;
+}
+
+#intro{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
+
+.subheader{
+    font-family: fantasy, serif;
+    font-size: 25px;
+}
+
+#pics {
+    text-align: center;
+}
+
+.brandonwu {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+.logo{
+    width: 550px;
+}
+
+.top{
+  color: white;
+  font-family: fantasy, serif;
+  font-size: 20px;
+  position: relative;
+  float: right;
+  margin-top: 40px;
+  width: 100%; 
+  padding: 0;
+  height: 800px;
+  text-align: center;
+}
+
+#background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:black url("../img/S__7725078.jpg") no-repeat center;
+  background-size: 100%;
+  z-index: -1;
+  /*opacity: 0.8;
+  filter: alpha(opacity=50);*/
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+#footer{
+	height: 50px;
+	background-color: black;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding-top: 8px;
+	bottom: 0px;
+	width: 100%;
+    margin-right: 10px;
+}
+
+
+}
+.w3-input{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+
+#map{
+    width:100%;
+    height:51%;
+}
+
+
+.contactline p{
+    font-size: 20px;
+}
+
+.w3-btn, .w3-btn-block {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none!important;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    
+}
+.w3-section {
+    margin-top: 40px!important;
+    margin-bottom: 40px!important;
+}
+.w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #808080;
+    width: 100%;
+    font-size: 15px;
+}
+

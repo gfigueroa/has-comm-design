@@ -1,0 +1,284 @@
+#title{
+    top:25px;
+    left:5%;
+    position: relative;
+    vertical-align:top;
+}
+.header{
+    text-decoration:none;
+    font-family: fantasy;
+    display: inline;
+    font-size: 25px;
+    vertical-align:middle;
+    left: 5%;
+    z-index:101;
+    background-color: white;
+    position: relative;
+    top:-30px;
+    vertical-align:super;
+    
+}
+#Portfoli{
+    left:5%;
+}
+#top {
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    vertical-align:top;
+}
+
+header {
+    color: black;        
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+    font-weight: 500;
+    position: fixed;
+    z-index: 101;
+    letter-spacing: 1.5px;
+    border-bottom-style:solid;
+    position: fixed;
+    left: 3%;
+    right: 2%;
+    background-color: white;
+                
+}
+
+#primary_nav_wrap{
+	margin-top:15px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#primary_nav_wrap ul{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding-left: 35%;
+        
+}
+
+#primary_nav_wrap ul a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#primary_nav_wrap ul{
+    word-spacing: 10%;
+}
+#primary_nav_wrap ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+    
+}
+
+#primary_nav_wrap ul li a{
+    font-family: fantasy;
+    font-size:20px;
+    background-color: white;
+    
+}
+#primary_nav_wrap ul li.current-menu-item {
+	background:#ddd;
+    
+}
+
+#primary_nav_wrap ul li.current-menu-item a{
+    font-family: fantasy;
+    font-size:20px;
+    background-color: white;
+    word-spacing: 20px;
+    text-align: center;
+}
+#primary_nav_wrap ul li:hover{
+	background:#f6f6f6;
+    font-size: 150%;
+}
+
+#primary_nav_wrap ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0;
+}
+
+#primary_nav_wrap ul ul li {
+	float:none;
+	width:200px;
+}
+
+#primary_nav_wrap ul ul a { 
+	line-height:120%;
+	padding:10px 15px;
+}
+
+#primary_nav_wrap ul ul ul {
+	top:0;
+	left:100%;
+}
+
+#primary_nav_wrap ul li:hover > ul {
+	display:block;
+}
+
+
+article{
+    position: relative;
+    text-align: left;
+    margin-top:100px;
+    font-size: 20px;
+    padding-top: 8%;
+    vertical-align:middle;
+    margin-left: -10%;
+    margin-right: 1%;
+    padding-left: 13%;
+    font-family:fantasy;
+    margin-bottom: 5%;
+}
+/* generic */
+ body {
+    color: #3F3F3F;
+    font-family:'Droid Sans', Tahoma, Arial, Verdana sans-serif;
+    font-size:16px;
+    background:#3F3F3F;
+}
+
+p {
+    margin-bottom:20px;
+}
+
+#ad{
+    position:relative;
+    margin-left:65%;
+    margin-top: 5%;
+    margin-left: 10%;
+    z-index: 1;
+    display: inline;
+    /*left: 300px;*/
+}
+#C1{
+    position:relative;
+    margin-top:3%;
+    z-index: 1;
+    display: inline;
+    padding: 4%;
+    width: 50%;
+    /*left: 300px;*/
+}
+#C2{
+    position:relative;
+    margin-top:3%;
+    z-index: 1;
+    display: inline;
+    padding: 4%;
+    width: 50%;
+    /*left: 300px;*/
+}
+/*.mySlides {
+    display:none;
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer;
+}
+.w3-badge {
+    height:13px;
+    width:13px;
+    padding:5%
+}*/
+
+
+body{
+    background-color: white;
+}
+        
+.footer{
+    position: relative;
+    height: 50px;
+    font-size: 14px;
+    color: black;
+    clear: both;
+    /*padding: 0.5%;*/
+    padding-left: 40%;
+    bottom: 0px;
+    font-family:fantasy;
+    border-top-style: solid ;
+    margin-left: 3%;
+    margin-right: 3%;
+    }
+
+.footer .icon a img{
+    position: relative;
+    margin-bottom: 3%;
+    padding: 1.5%;
+}
+
+
+
+
+
+
+
+
+        .left{
+                position: inherit;
+                float: left;
+                width: 15%;
+                height: 800px;
+                margin-top: 5%;
+                padding-top: 1%;
+                padding-left:50px;
+            }
+            
+            section{
+                background-color: aliceblue;
+                opacity: 1;
+            }
+            div h3 {
+                font-family:fantasy;
+                color:black;
+                font-size: 35px;
+                opacity: 1;
+                
+            }
+            div li{
+                font-size: 25px;
+                color: cornflowerblue;
+                font-family:fantasy;
+            }
+            
+            body{
+                background-image:url("images/back5");
+                background-size: 100%;
+            }
+    
+            }
+            a:link{
+                color:black;
+                text-decoration:none;
+    
+            }
+            a:visited{
+                color:blueviolet;
+                text-decoration:none;
+            }
+            a:hover{
+                color:darkviolet;
+                font-size: 150%;
+                text-decoration:none;
+            }
+            

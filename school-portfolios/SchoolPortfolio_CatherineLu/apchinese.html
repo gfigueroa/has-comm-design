@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/course.css" type="text/css">
+    <link rel="stylesheet" href="styles/slideshow.css" type="text/css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+      .mySlides {display:none;}
+    </style>
+    <title>AP CHINESE</title>
+  </head>
+  <body style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/chinbk.jpg')">
+    <div class="name_nav">
+      <h1 id="title">AP CHINESE</h1>
+      <hr id="line">
+      <div class="navi">
+        <a href="index.html" id="navbtn">HOME</a>
+        <div class="dropdown">
+          <button class="dropbtn">COURSES</button>
+          <div class="dropdown-content">
+            <a href="201516courses.html">2015 - 2016</a>
+            <a href="201617courses.html">2016 - 2017</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main id="main">
+      <ul>
+        <li>Teacher name: Ms. Wu</li>
+        <li>Course description:<br>
+          In this course, Ms. Wu helped us prepared for the actual AP Chinese test that took place in May.
+          At the start of the year, Ms. Wu came up with a comprehensive plan for the year and throughout the year we followed the plan.
+          Since the actual AP test includes multiple sections (listening, reading, writing, and speaking), each class we would alternate and practice a different section.
+          To enhance our Chinese abilities, Ms. Wu would always assign several worksheets as homework to complete.
+          We’ve also done multiple crafts and DIYs for different holidays.
+        </li>
+        <li>Examples of major work done in the class:</li>
+      </ul>
+
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="img/w1.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="img/w2.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+        </div>
+    </main>
+    <footer>
+      <div class="social">
+        <div class="menu-social-menu-container"><ul id="menu-social-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2786"><a target="_blank" href="http://www.facebook.com/cathylululu"><i class="fa fa-facebook-f"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2793"><a target="_blank" href="https://twitter.com/itscathydou"><i class="fa fa-twitter"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2796"><a target="_blank" href="https://www.pinterest.com/cathylululu/"><i class="fa fa-pinterest-p"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2797"><a target="_blank" href="http://instagram.com/itscathydou"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

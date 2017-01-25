@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Peggy Lee's Journal Entries</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <style>
+            /*Navigation bar*/
+            ul {
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                text-align: center;
+                background-color: black
+            }
+            li {
+                height: 24px;
+                display:inline;
+            }
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                font-size: 16px;
+                font-family: copperplate;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: #999999;
+                text-decoration: none;
+                color:white;
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+                text-decoration: none;
+                color:black;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+                text-decoration: none;
+            }
+            /*Slideshow*/
+            .mySlides {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /*Split page*/
+            div.container {
+                width: 100%;
+            }
+            .container{
+                height:100px;
+                width:500px;
+                border-left:none;
+                border-right:none;
+                text-align:justify;
+                word-wrap: break-word;
+            }
+            .container div{
+                display: inline-block;
+                vertical-align: middle;
+                line-height: 110%;
+            } 
+            .column-left{
+                float: left; width: 935px;
+                background-image: url('Images/white1.png');
+                height: 350px;
+                position: absolute;
+                left: 20px;
+                top: 610px;
+            }
+            .column-right{
+                float: right; width: 285px;
+                background-image: url('Images/white1.png');
+                position: absolute;
+                right: 20px;
+                top: 610px;
+                height: 850px;
+            }
+            .column-gallery{
+                float: left; width: 935px;
+                position: absolute;
+                left: 20px;
+                top: 980px;
+                background-image: url('Images/white1.png');
+                height: 480px;
+            }
+            .column-text{
+                float: none; 
+                padding: 15px 30px 15px 30px;
+            }
+            .column-image{
+                float: none; width: 30%;
+                margin-left: 80%;
+                margin-right: 2%;
+            }
+            .column-subtitle{
+                float:none; width: 96%;
+                margin-left: 2%;
+                margin-right: 2%;
+                padding: 15px 15px 0px 15px;
+            }
+            .column-footerleft{
+                float: left; width: 300px;
+                height: 35px;
+                position: absolute;
+                left: 20px;
+                top: 1480px;
+                font-size: 13px;
+                font-family: times new roman;
+            }
+            .column-footerright{
+                float: right; width: 400px;
+                position: absolute;
+                right: 20px;
+                top: 1480px;
+                text-align: right;
+                font-size: 13px;
+                font-family: times new roman;
+            }
+            /*Content*/
+            body{
+                background-image: url('http://wallpaper.zone/img/2124910.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            h3{
+                font-family: impact;
+                text-align: center;
+            }
+            p{
+                font-family: times new roman;
+                font-size: 100%;
+            }
+            
+            homeWeekNum{
+                font-family: times new roman;
+                font-size: 120%;
+                font-weight: bold;
+            }
+            homeFirstFewWords{
+                font-family: times new roman;
+                font-size: 100%;
+                line-height: 150%;
+            }
+            homeUpdated{
+                font-family: times new roman;
+                font-size: 100%;
+                line-height: 150%;
+                font-style: italic;
+            }
+            div.img {
+                border: 1px solid #ccc;
+            }
+            div.img:hover {
+                -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+            }
+            div.img img {
+                width: 100%;
+                height: 150px;
+            }
+            div.desc {
+                padding: 15px;
+                text-align: center;
+                font-family: times new roman;
+                background-color: white;
+                width: 300px;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            .responsive {
+                float:inherit;
+                width: 25%;
+                margin-bottom: 10px;
+                margin-left: 3%;
+                margin-right: 3%;
+            }
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            clickForMore{
+                font-family: times new roman;
+                color:blue;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--Title-->
+        <header>
+            <h1 style="font-family: Brush Script MT; text-align:center">Peggy Lee's Journal Entries</h1> 
+        </header>
+        <!--Navigation bar-->
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">2016</a>
+                <div class="dropdown-content">
+                    <a href="2016august.html">August</a>
+                    <a href="2016september.html">September</a>
+                    <a href="2016october.html">October</a>
+                    <a href="2016november.html">November</a>
+                    <a href="2016december.html">December</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">2017</a>
+                <div class="dropdown-content">
+                    <a href="2017january.html">January</a>
+                    <a href="2017february.html">February</a>
+                    <a href="2017march.html">March</a>
+                    <a href="2017april.html">April</a>
+                    <a href="2017may.html">May</a>
+                    <a href="2017june.html">June</a>
+                </div>
+            </li>
+        </ul>
+        <!--Slideshow-->
+        <div class="w3-content w3-section" style="max-width:100%">
+            <img class="mySlides" src="http://blogs-images.forbes.com/gradsoflife/files/2016/09/coding-picture-1200x800.jpg" height="450" width="100%">
+            <img class="mySlides" src="http://pocketdesign.com.au/2015/wp-content/uploads/2015/06/Pocket_Tools_Title_Flatlay2.jpg" height="450" width="100%">
+            <img class="mySlides" src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2013/03/design.jpg" height="450" width="100%">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 5000); 
+            }
+        </script>
+        <!--Split page-->
+        <div class="container">
+            <div class="column-left">
+                <div class="column-subtitle">
+                    <h3>Recent Updates</h3>
+                </div>
+                
+                <div class="column-text">
+                    <homeWeekNum>Week 8 &#40;Updated 10/16&#41; - </homeWeekNum>
+                    <homeFirstFewWords>
+                        This week, Mr. Fig stuffed our brain with some CSS basic elements, such as selectors, pseudo-selectors, properties, and values. Programmers use selectors to &quot;select&quot; the elements that they want to style. They apply pseudo-selectors to style an element differently when the user hovers or visits. Examples of properties are text-align, font-family, and font-size. How...
+                    </homeFirstFewWords>
+                    <clickForMore><a href = "2016october.html#week7">Click For More</a></clickForMore>
+                </div> 
+                
+                <div class="column-text">
+                    <homeWeekNum>Week 7 &#40;Updated 10/9&#41; - </homeWeekNum>
+                    <homeFirstFewWords>
+                        We had the whole week to work on our project. I was glad that my work impressed Mr. Fig. His words, &quot;you don&rsquo;t need to take this class anymore&quot;, reassured me that Computer Science would be the right field for me. As stated in the previous entry, I like to get feedbacks from a variety of people. Because websites are universal, thinking from different perspectives is crucial...
+                    </homeFirstFewWords>
+                    <clickForMore><a href = "2016october.html#week7">Click For More</a></clickForMore>
+                </div> 
+                
+                <div class="column-text">
+                    <homeWeekNum>Week 6 &#40;Updated 10/3&#41; - </homeWeekNum>
+                    <homeFirstFewWords>
+                        Believe it or not, I didn&rsquo;t stop coding on typhoon days! Spending a total of ten hours of my holidays, I completed 90% of my first Communication Design project. Unlike others, I did not have the habit of drawing sketches or diagrams beforehand. Strangely, my ideas show up at various times, such as when I was eating or showering. The key to success in setting up a website is to... 
+                    </homeFirstFewWords>
+                    <clickForMore><a href = "2016october.html#week6">Click For More</a></clickForMore>
+                </div> 
+            </div>
+            
+            <div class="column-right">
+                <div class="column-subtitle">
+                    <h3>For Your Information</h3>
+                    <br/>
+                </div>
+                
+                <iframe id="forecast_embed" type="text/html" frameborder="0" height="200" width="100%" src="http://forecast.io/embed/#lat=24.806649&lon=120.966926&name=Hsinchu City&color=#00aaff&font=Georgia&units=si"></iframe>
+                
+                <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "http://feeds.reuters.com/reuters/topNews|http://feeds.reuters.com/reuters/sportsNews|http://feeds.reuters.com/reuters/businessNews|http://feeds.reuters.com/reuters/entertainment",rssmikle_frame_width: "300",rssmikle_frame_height: "400",frame_height_by_article: "3",rssmikle_target: "_top",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "on",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "on",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "5",mcspeed: "20",sort: "New",rssmikle_title: "on",rssmikle_title_sentence: "Breaking News",rssmikle_title_link: "",rssmikle_title_bgcolor: "#FF0000",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#000000",rssmikle_item_border_bottom: "on",rssmikle_item_description: "title_only",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "on",rssmikle_timezone: "Asia/Taipei",datetime_format: "%b %e, %Y %l:%M %p",item_description_style: "text",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "icon",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; "><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a></div>
+                
+                <object width='285' height='400' id='flashWorldLeagues' classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000'>
+                <param name='movie' value='http://www.fifa.com/flash/widgets/worldmatchcentre/app.swf?leagueCode=usa&lang=e'/>
+                <param name='bgcolor' value='#ffffff'/>
+                <param name='quality' value='high'/>
+                <param name='wmode' value='transparent'/>
+                <param name='flashvars' value='lang=e&leagueCode=usa'>
+                <embed width='285' height='350' flashvars='lang=e&amp;leagueCode=usa' wmode='transparent' quality='high' bgcolor='#ffffff' name='flashWorldLeagues' id='flashWorldLeagues' src=http://www.fifa.com/flash/widgets/worldmatchcentre/app.swf?leagueCode=usa&lang=e type='application/x-shockwave-flash'/>
+                </object>
+            </div>
+            
+            <div class="column-gallery">
+                <div class="column-subtitle">
+                    <h3>Gallery of My Work</h3>
+                    <br/>
+                </div>
+                <div class="responsive">
+                    <div class="img">
+                        <a target="_blank" href="Images/schoolWebsite_outline.png">
+                            <img src="Images/schoolWebsite_outline.png">
+                        </a>
+                    <div class="desc">School Website - Page Outline</div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="img">
+                        <a target="_blank" href="Images/myPortfolio_outline.png">
+                            <img src="Images/myPortfolio_outline.png">
+                        </a>
+                    <div class="desc">My Portfolio - Page Outline</div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="img">
+                        <a target="_blank" href="Images/myPortfolio_htmlSummary1.png">
+                            <img src="Images/myPortfolio_htmlSummary1.png">
+                        </a>
+                    <div class="desc">My Portfolio - HTML Summary 1</div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="img">
+                        <a target="_blank" href="Images/myPortfolio_htmlSummary2.png">
+                            <img src="Images/myPortfolio_htmlSummary2.png">
+                        </a>
+                    <div class="desc">My Portfolio - HTML Summary 2</div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="img">
+                        <a target="_blank" href="Images/myPortfolio_accessibility.png">
+                            <img src="Images/myPortfolio_accessibility.png">
+                        </a>
+                    <div class="desc">My Portfolio - Accessibility</div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="img">
+                        <a target="_blank" href="Images/learningCSS_homepage.png">
+                            <img src="Images/learningCSS_homepage.png">
+                        </a>
+                    <div class="desc">LearningCSS - Homepage</div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+            <footer>
+                <div class="column-footerleft">
+                    Copyright &copy; 2016 Peggy Lee
+                </div>
+                <div class="column-footerright">
+                    Have questions? Contact me at lee.peggy1126@gmail.com
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

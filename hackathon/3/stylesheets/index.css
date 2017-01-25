@@ -1,0 +1,162 @@
+body{
+  font-family:Century Gothic, sans-serif;
+  background:#ADD8E6;
+}
+
+.nav{
+  padding-left: 0%;
+  width:100%;
+  position:fixed;
+  margin-top:-0.5em;
+  margin-left:-0.5em;
+  border-radius: 25px;
+}
+/* Set the parent <li>'s CSS position property to 'relative' */
+.nav ul {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    background: grey;
+}
+
+.nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: none;
+}
+
+/*The CSS to hide the sub menus*/
+.nav li ul{
+  display: none;
+}
+
+.nav li a{
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.right{
+  text-decoration: none;
+  padding: 1em;
+  color: #131389;
+  font-family:cursive;
+  padding-left:500px;
+  font-weight: bolder;
+}
+
+.nav ul li a:hover{
+  background: #2c3e50;
+}
+
+/*Displays the dropdown menu on hover*/
+
+.nav li:hover > ul{
+  display: block;
+  position: absolute;
+}
+
+.nav li:hover li{
+  float: none;
+}
+
+.nav li:hover a{
+  background: none;
+}
+
+.nav li:hover li a:hover{
+  background: #2c3e50;
+}
+
+.nav .main-navigation li ul li {
+  border-top:0;
+}
+
+/* Displays second level dropdown menus to the right of the first level
+drop down menu*/
+.nav ul ul ul{
+  left: 100%;
+  top: 0;
+}
+
+/* Simple clearfix*/
+.nav ul:before, ul:after{
+  content: "  ";
+  display: table;
+}
+
+.nav ul:after{
+  clear: both;
+}
+
+footer{
+
+  color: black;
+  text-align: center;
+  bottom: 0px;
+  font-size:3px;
+  clear:both;
+  position:fixed;
+
+}
+
+#teacher{
+  border-style: solid;
+  width:auto;
+  text-align:center;
+  margin-left:400px;
+  margin-right:400px;
+  margin-top: 15px;
+  border-color:white;
+  color:white;
+}
+#teacher h1{
+  font-size: 50px;
+}
+
+#teacher1{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family:Georgia,serif;
+  font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+}
+
+#courseDescription{
+  margin-top:50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family:Georgia,serif;
+  font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+
+}
+
+#majorWork{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family:Georgia,serif;
+  font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+}
+
+.object{
+
+  margin: auto;
+  text-align: center;
+}
+
+h3{
+  font-size:23px;
+}
+
+p{
+  font-size:18px;
+}
+.content{
+  padding-top:50px;
+  margin-left:30px;
+}
+.space{
+  height:500px;
+}

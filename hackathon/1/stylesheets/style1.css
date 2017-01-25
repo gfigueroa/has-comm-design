@@ -1,0 +1,36 @@
+body{
+	background-color: #F0F8FF
+}
+.school{
+	font-size: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #C48793;
+	font-family: Arial;
+}
+
+.project{
+	font-size: 25px;
+	margin-top: 70px;
+	color: #F778A1;
+	margin-left: 50px;
+}
+
+.a{
+	margin-left: 80px;
+	font-size: 17px;
+	color:#F9A7B0;
+	font-family: Arial;
+}
+
+.bbb{
+	font-size: 20px;
+	text-align: right;
+	margin-right: 220px;
+	color: #E56E94
+}
+
+.footer{
+	margin-top: 430px;
+	color: #F660AB
+}

@@ -1,0 +1,310 @@
+.footer {
+	border: 5px solid orange;
+	
+}
+
+.map {
+	margin-left: 425px;
+	margin-top: -10px;
+}
+
+.science {
+	height: 250px;
+	margin-left: 460px;
+}
+
+.peagain {
+	height: 225px;
+	margin-left: 350px;
+	margin-top: 25px;
+}
+
+.geomimg {
+	margin-left: 425px;
+	margin-top: 50px;
+	height: 250px;
+}
+
+.healthbook {
+	margin-left: 470px;
+	height: 300px;
+}
+
+.writingproject {
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.spanish2jpg {
+	margin-left: 460px;
+	height: 300px;
+}
+
+.algebra {
+	height: 200px;
+	margin-left: 410px;
+	margin-top: 20px;
+}
+
+.html {
+	margin-left: 460px;
+	margin-top: 10px;
+	height: 200px;
+}
+
+video{
+	margin-left: 300px;
+}
+
+.historybook {
+	margin-left: 400px;
+	height: 300px;
+}
+
+.scienceproject {
+	margin-top: -180px;
+	margin-left: 300px;
+}
+
+.coursespanish {
+	float: right;
+	position: absolute;
+	top: 17.5%;
+	right: 17.7%;
+
+}
+
+.spanish1 {
+	margin-left: 950px;
+	margin-top: -350px;
+	float: right;
+}
+
+.peimg {
+	height: 350px;
+	margin-left: 970px;
+	margin-top: -320px;
+	float: right;
+}
+
+.cpu {
+	height: 290px;
+	margin-right: 50px;
+	margin-top: -280px;
+	float: right;
+}
+
+
+
+.cpp {
+	height: 300px;
+	float: left;
+	margin-left: 350px;
+}
+
+.flash {
+	height: 300px;
+	float: left;
+	margin-left: 150px;
+}
+
+.earth {
+	height: 400px;
+	margin-left: 970px;
+	margin-top: -360px;
+	float: right;
+}
+
+.courselit {
+	
+	margin-left: 350px;
+}
+
+.lol {
+	height: 200px;
+	margin-left: 550px;
+}
+
+.teacher {
+	text-align: center;
+	margin-top: -170px;
+	margin-left: 100px;
+	font-size: 150%;
+	margin-right: 460px;
+}
+
+.introlitt {
+	height: 300px;
+	margin-left: 970px;
+	margin-top: -360px;
+	float: right;
+	border: 1px solid black;
+}
+
+.home a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+.home {
+	text-align: center;
+	border-bottom: 5px solid black;
+	font-size: 300%;
+}
+
+html {
+	background-color: #DFE2DB;
+}
+
+#homepagepicture {
+	width: 63%;
+	float: right;
+	margin-right: 130px;
+	margin-top: -225px;
+}
+
+h2 {
+	float: right;
+	margin-right: 115px;
+}
+
+nav a{
+	color: brown;
+}
+
+nav a:link {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 100px;
+	font-size: 150%;
+	text-decoration: none;
+	border: 3px solid black;
+	border-radius: 20px;
+}
+
+nav a :visited {
+	color: black;
+}
+
+nav a:hover {
+	font-size: 150%;
+}
+
+.classes {
+	text-align: center;
+	margin-right: 550px;
+	font-size: 200%;
+	height: 50px;
+}
+
+.caption{
+	text-decoration: none;
+}
+
+#twitter {
+	width: 110px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#yt {
+	width: 110px;
+	margin-left: 37px;
+	margin-top: 50px;
+}
+
+nav {
+	width: 250px;
+	float: left;
+}
+
+
+.classes1 {
+	width: 35%;
+	float: right;
+	margin-top: -65px;
+}
+
+.firstyearclasses{
+	margin-top: 265px;
+	margin-left: 380px;
+	font-size: 130%;
+	position: absolute;
+}
+
+.firstyearclasses2{
+	margin-top: 265px;
+	margin-left: 750px;
+	font-size: 130%;
+}
+
+.firstyearclasses a:link{
+	text-decoration: none;
+}
+
+.firstyearclasses2 a:link{
+	text-decoration: none;
+}
+
+.firstyearclasses2 a:hover {
+	font-size: 120%;
+	color: green;
+}
+
+.firstyearclasses a:hover {
+	font-size: 120%;
+	color: green;
+}
+
+#classbottom {
+	margin-left: 475px;
+	width: 400px;
+}
+
+#home {
+	height: 20px;
+}
+
+#class1516 {
+	margin-top: -1px;
+}
+
+a {
+	color: black;
+}
+
+.dropbtn {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 100px;
+	font-size: 150%;
+	text-decoration: none;
+	border: 3px solid brown;
+	border-radius: 30px;
+	color: brown;
+	float: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+
+.dropdown-content a {
+    color: brown;
+    padding: 12px 16px;
+	margin-left: 50px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.des {
+	margin-left: 350px;
+}

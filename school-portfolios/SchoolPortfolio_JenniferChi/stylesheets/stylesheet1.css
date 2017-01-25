@@ -1,0 +1,827 @@
+/*Home*/
+/*http://lutoslawski.warszawa.pl/img/d2.jpg*/
+
+body {
+	background:url("https://s-media-cache-ak0.pinimg.com/236x/03/93/b9/0393b90d163f349022b49d8c39909b7c.jpg"); 
+}
+
+h1 {
+	text-align: center; 
+	font-size: 50px; 
+	margin-top: 1cm; 
+	border: 2px solid black; 
+	background-color: white; 
+	border-radius: 15px; 
+}
+
+nav {
+	text-align: center; 
+}
+
+nav  a{
+	display: inline; 
+	margin: 2cm; 
+	font-size: 30px; 
+	border: 1px solid black; 
+	background-color:white; 
+	padding-top: 0.2cm; 
+	padding-bottom: 0.2cm; 
+	padding-right:1cm;  
+	padding-left: 1cm; 
+	border-radius: 15px; 
+}
+
+nav a:link {
+	color: black; 
+	text-decoration: none; 
+}
+
+#aboutthewebsite {
+	font-size: 20px; 
+	margin-left: 3cm; 
+	margin-right: 3cm; 
+	margin-top: 1.5cm;
+	border: 1px solid black; 
+	border-radius: 15px; 
+	padding-top: 0.1cm; 
+	padding-right: 1.5cm; 
+	padding-left: 1.5cm; 
+	background-color: white; 
+}
+
+#aboutthewebsite h2 {
+	text-align:center; 
+}
+
+#aboutme {
+	float:left;
+	font-size: 20px; 
+	margin-left: 3cm; 
+	margin-right: 22cm; 
+	margin-top: 1.5cm;
+	border: 1px solid black; 
+	border-radius: 15px; 
+	padding-top: 0.1cm; 
+	padding-right: 1cm; 
+	padding-left: 1cm; 
+	background-color: white; 
+}
+
+#abouttheschool {
+	float:right;
+	font-size: 20px; 
+	margin-left: 20cm; 
+	margin-right: 3cm; 
+	margin-top: -5.3cm;
+	border: 1px solid black; 
+	border-radius: 15px; 
+	padding-top: 0.1cm; 
+	padding-right: 0.5cm; 
+	padding-left: 0.5cm; 
+	background-color: white; 
+}
+
+/*Contact Me*/
+#contactme {
+	text-align:center; 
+	margin-top: 1.5cm; 
+	border: 1px solid black; 
+	border-radius: 15px; 
+	background-color: white; 
+}
+
+#contactlinks {
+	text-align: center; 
+}
+
+.contactimages {
+	height: 27%;
+	width: 15%;
+	margin-left: 5.5cm; 
+	margin-top: 1cm; 
+}
+
+/*Courses*/
+#junior {
+	float:left; 
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	padding-right: 1cm; 
+	padding-left: 1cm; 
+	padding-bottom: 1cm; 
+	margin-top:1.5cm; 
+	margin-left: 6cm; 
+}
+
+#junior h2 {
+	font-size: 35px; 
+}
+
+#junior a {
+	display:block; 
+	font-size: 20px;
+}
+
+#senior {
+	float:right; 
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	padding-right: 1cm; 
+	padding-left: 1cm; 
+	padding-bottom: 1cm; 
+	margin-top: 1.5cm; 
+	margin-right: 6cm; 
+}
+
+#senior h2 {
+	font-size: 35px; 
+}
+
+#senior a {
+	display: block; 
+	font-size: 20px; 
+}
+
+/*AP Econ*/
+#apeconclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#apeconclass p{
+	font-size: 20px; 
+}
+
+#apecon1 {
+	border-radius: 75px; 
+	height: 14cm; 
+	width: 20cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 10cm; 
+	margin-bottom: 2cm; 
+}
+
+#apecon2 {
+	border-radius: 75px; 
+	height: 14cm; 
+	width: 20cm;
+	margin-right: 2cm; 
+	margin-left: 10cm; 
+	margin-bottom: 2cm; 
+}
+
+/*AP Calc*/
+#apcalcclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#apcalcclass p{
+	font-size: 20px; 
+}
+
+#apcalc2 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 10cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 5cm; 
+	margin-bottom: 2cm; 
+}
+
+#apcalc3 {
+	border-radius: 75px; 
+	height: 10cm; 
+	width: 13cm;
+	margin-right: 2cm; 
+	margin-left: 2cm; 
+	margin-bottom: 2cm; 
+}
+
+
+/*Study Hall*/
+#studyhallclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#studyhallclass p{
+	font-size: 20px; 
+}
+
+/*Comm Design*/
+#cdclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#cdclass p{
+	font-size: 20px; 
+}
+
+#cd1 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+#cd2 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+
+#cd3 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+/*College Essay*/
+#collegeessayclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#collegeessayclass p{
+	font-size: 20px; 
+}
+
+#c1 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 20cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 10cm; 
+	margin-bottom: 2cm; 
+}
+
+#c2 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 20cm;
+	margin-right: 2cm; 
+	margin-left: 10cm; 
+	margin-bottom: 2cm; 
+}
+
+
+#c3 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 20cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 10cm; 
+	margin-bottom: 2cm; 
+}
+
+#c4 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 20cm;
+	margin-right: 2cm; 
+	margin-left: 10cm; 
+	margin-bottom: 2cm; 
+}
+/*AP Art*/
+#apartclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#apartclass p{
+	font-size: 20px; 
+} 
+
+
+#apart1 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 13cm;
+	margin-right: 2cm; 
+	margin-left:13cm; 
+	margin-top: 2cm; 
+	margin-bottom: 2cm; 
+}
+
+#apart2 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 13cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 13cm; 
+	margin-bottom: 2cm; 
+}
+
+#apart3 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 13cm;
+	margin-right: 2cm; 
+	margin-left: 13cm; 
+	margin-top: 2cm; 
+	margin-bottom: 2cm; 
+}
+
+/*Novel*/
+#novelclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#novelclass p{
+	font-size: 20px; 
+}
+
+#novel1 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+#novel2 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+
+#novel3 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+#novel4 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+
+/*Stats*/
+#statsclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#statsclass p{
+	font-size: 20px; 
+}
+
+#stats1 {
+	border-radius: 75px; 
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-top: 2cm; 
+	margin-bottom: 2cm; 
+}
+
+#stats2 {
+	border-radius: 75px; 
+	width: 10cm; 
+	height: 7cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 2cm; 
+	margin-bottom: 2cm; 
+}
+
+/*Econ*/
+#econclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#econclass p{
+	font-size: 20px; 
+}
+
+
+#econ1 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+#econ2 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+
+#econ3 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+#econ4 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+/*Biology*/
+#bioclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#bioclass p{
+	font-size: 20px; 
+}
+
+#bio1 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-top: 2cm; 
+	margin-bottom: 2cm; 
+}
+
+#bio2 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+#bio3 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-top: 2cm; 
+	margin-bottom: 2cm; 
+}
+
+/*AP English*/
+#apenglishclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#apenglishclass p{
+	font-size: 20px; 
+}
+
+#apenglish1 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 20cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 10cm; 
+	margin-bottom: 2cm; 
+}
+
+#apenglish2 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 20cm;
+	margin-right: 2cm; 
+	margin-left: 10cm; 
+	margin-bottom: 2cm; 
+}
+
+/*Ap Euro*/
+#apeuroclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#apeuroclass p{
+	font-size: 20px; 
+}
+
+#apeuropics {
+	margin-top: 2cm; 
+}
+
+#apeuropic1 {
+	border-radius: 75px; 
+	margin-right: 2cm; 
+	margin-left: 2cm; 
+	margin-top: 2cm; 
+}
+
+#apeuropic2 {
+	border-radius: 75px; 
+	width: 7cm; 
+	height: 7cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 2cm; 
+}
+
+#apeuropic3 {
+	border-radius: 75px; 
+	width: 7cm; 
+	height: 7cm; 
+	padding-left: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 3cm;
+	margin-right: 2cm; 
+}
+
+/*Precalc*/
+#precalcclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#precalcclass p{
+	font-size: 20px; 
+}
+
+#precalc1 {
+	border-radius: 75px; 
+	height: 10cm; 
+	width: 18cm;
+	margin-top: 1cm; 
+	margin-left: 2cm; 
+	margin-right: 1cm; 
+	margin-bottom: 2cm; 
+}
+
+#precalc2 {
+	border-radius: 75px; 
+	height: 10cm; 
+	width: 14cm;
+	margin-right: 1cm; 
+	margin-bottom: 2cm; 
+	margin-top: 1cm; 
+}
+
+
+#precalc3 {
+	border-radius: 75px; 
+	height: 6cm; 
+	width: 14cm; 
+	margin-top: 2cm; 
+	margin-left: 13cm; 
+	margin-bottom: 2cm; 
+}
+
+/*Study Hall J*/
+#studyhalljclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#studyhalljclass p{
+	font-size: 20px; 
+}
+
+#sh1 {
+	border-radius: 75px; 
+	height: 10cm; 
+	width: 18cm;
+	margin-top: 1cm; 
+	margin-left: 3cm; 
+	margin-right: 1cm; 
+	margin-bottom: 2cm; 
+}
+
+#sh2 {
+	border-radius: 75px; 
+	height: 10cm; 
+	width: 14cm;
+	margin-right: 1cm; 
+	margin-bottom: 2cm; 
+	margin-top: 1cm; 
+}
+
+/*Music App*/
+#musicappclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#musicappclass p{
+	font-size: 20px; 
+}
+
+#ma1 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+#ma2 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+
+#ma3 {
+	border-radius: 75px; 
+	height: 17cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+/*Art*/
+#artclass {
+	background-color:white; 
+	border-radius: 15px; 
+	border: 1px solid black; 
+	margin-top: 1cm; 
+	margin-left: 1cm; 
+	margin-right: 1cm; 
+	padding-left: 2cm; 
+	padding-right:2cm; 
+}
+
+#artclass p{
+	font-size: 20px; 
+}
+
+#art1 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-top: 2cm; 
+	margin-bottom: 2cm; 
+}
+
+#art2 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-top: 2cm; 
+	margin-left: 8cm; 
+	margin-bottom: 2cm; 
+}
+
+#art3 {
+	border-radius: 75px; 
+	height: 20cm; 
+	width: 25cm;
+	margin-right: 2cm; 
+	margin-left: 8cm; 
+	margin-top: 2cm; 
+	margin-bottom: 2cm; 
+}
+

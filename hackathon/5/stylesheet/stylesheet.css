@@ -1,0 +1,49 @@
+h1 {
+	font-family: Verdana, sans-serif;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 10px;
+	float: top;
+}
+h3 {
+	font-family: Verdana, sans-serif;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+ul {
+	font-family: Verdana, sans-serif;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin-top: 0px;
+	border-radius: 10px;
+	list-style-type: none;
+}
+#pro{
+	background-color: white;
+	border-radius: 10px;
+	border: 3px solid black;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-left: 100px;
+	float: left;
+	height: 565px;
+}
+footer {
+	font-family: Verdana, sans-serif;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 10px;
+	text-align: center;
+	margin: auto;
+	clear: both;
+	width: 300px;
+}

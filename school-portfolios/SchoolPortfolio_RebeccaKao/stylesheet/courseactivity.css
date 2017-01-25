@@ -1,0 +1,137 @@
+h1 {
+	text-align: right;
+	background-color: #2a363b;
+	color: #ec1c4b;
+	font-family: Verdana, sans-serif;
+	width: 73%;
+	float: right;
+	margin: 0;
+	padding: 5px;
+	height: 37px;
+	border: solid #222222 5px;
+}
+#crss {
+	background-color: #2a363b;
+	color: #ec1c4b;
+	border: solid #222222 5px;
+	width: 270px;
+	height: 675px;
+	margin: 10px;
+	margin-left: 65px;
+	padding: 10px;
+	float: left;
+}
+#crss h3 {
+	text-align: center;
+	width: 200px;
+	margin-left: 30px;
+}
+#crss li a {
+	color: #ff847c;
+	padding: 5px;
+}
+#crss li a:hover {
+	color: #fecea8;
+}
+#well {
+	float: right;
+	background-color: #2a363b;
+	border: solid #222222 5px;
+	margin: 10px;
+	margin-right: 360px;
+	padding: 10px;
+	height: 675px;
+	
+}
+
+.core {
+	background-color: #2a363b;
+	color: #e84a5f;
+	border: solid #222222 5px;
+	margin: 10px;
+	padding: 10px;
+	margin-left: 65px;
+	margin-right: 75px;
+}
+
+.iimg {
+	background-color: #2a363b;
+	border: solid #222222 5px;
+	margin: 10px;
+	margin-left: 65px;
+	margin-right: 75px;
+	padding: 10px;
+	text-align: center;
+}
+.iimg img {
+	width: 675px;
+}
+
+ul {
+	list-style-type: none;
+	font-family: Verdana, sans-serif; 
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+	border: solid #222222 5px;
+}
+#nav{
+	background-color: #2a363b;
+}
+#nav li {
+	display: inline;
+	background-color: #2a363b;
+	color: #e84a5f;
+	float: left;
+}
+#nav li a, .dropbtn {
+    display: inline-block;
+    color: #ff847c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #e84a5f;
+	color: #fecea8;
+}
+
+#nav li.dropdown {
+    display: inline-block;
+}
+
+#nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2a363b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#nav .dropdown-content a {
+    color: #e84a5f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+#nav.dropdown-content a:hover {background-color: #2a363b}
+
+#nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+li {
+	color: #e84a5f;
+}
+a:hover {
+	color: #fecea8;
+}
+a:active{
+	color: #ff847c;
+}
+a:visited{
+	color: #ef4566;
+}
+main {
+	font-family: Verdana, sans-serif;
+}

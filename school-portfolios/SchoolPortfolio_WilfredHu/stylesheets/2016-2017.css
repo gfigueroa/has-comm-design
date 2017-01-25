@@ -1,0 +1,143 @@
+body{
+	background-color: #EFEBE9;
+}
+
+.name{
+	text-align: center;
+	font-size: 50px;
+	font-family: cursive;
+	padding-top: 30px;
+	color: #8D6E63;
+}
+
+div img{
+	width: 500px;
+}
+
+#line{
+	font-size: 25px;
+	text-align: center;
+	font-family: fantasy;
+	display: inline-block;
+}
+
+#line a{
+	margin-left: 60px;
+	margin-right: 60px;
+	text-decoration:none;
+	color:  #8D6E63;
+}
+
+#line a:hover{
+	color:#8D6E63;
+	background-color:#BCAAA4  ;
+}
+
+.img{
+	position: relative; 
+	padding-left: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	z-index: -20
+}
+
+.school{
+    position: relative;
+    display: inline-block;
+}
+
+.school-content {
+    display: none;
+    position: fixed;
+    background-color: #BCAAA4  ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.school-content a {
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+	font-size: 20px;
+}
+
+.school-content a:hover {
+	background-color: white
+}
+
+.school:hover .school-content {
+    display: block;
+}
+
+.school:hover .schooln {
+    background-color: #BCAAA4  ;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #BCAAA4  ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-size: 20px;
+}
+
+.dropdown-content a:hover {
+	background-color: white
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #BCAAA4  ;
+}
+
+div img{
+	width: 1000px;
+	display: block;
+    margin: 0 auto;
+}
+
+.tro{
+	text-align:center;
+	font-family:Arial;
+	font-size: 25px;
+	color: #795548;
+	margin-top: 30px;
+	font-weight: bold
+}
+
+.draft{
+	font-size: 20px;
+	font-family: Arial;
+	margin-left: 190px;
+	margin-right: 190px;
+	color: #795548;
+}
+
+.title{
+	text-align: center;
+	font-size: 25px;
+	color: #795548;
+}
+
+.al{
+	width: 1300px;
+	float: 10px
+	
+}

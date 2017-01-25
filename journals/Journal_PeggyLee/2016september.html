@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>September Entries</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <style>
+            /*Navigation bar*/
+            ul {
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                text-align: center;
+                background-color: black
+            }
+            li {
+                height: 24px;
+                display:inline;
+            }
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                font-size: 16px;
+                font-family: copperplate;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: #999999;
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index:1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            /*Page*/
+            div.container {
+                width: 100%;
+            }
+            .container{
+                height:100px;
+                width:500px;
+                border-left:none;
+                border-right:none;
+                text-align:justify;
+                word-wrap: break-word;
+            }
+            .container div{
+                display: inline-block;
+                vertical-align: middle;
+                height:auto;
+            } 
+            .column-main{
+                float:left; width: 1240px;
+                background-image: url('Images/white1.png');
+                position: absolute;
+                left: 20px;
+                right:20px;
+            }
+            .column-text{
+                float: none; width: 92%;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+            .column-image{
+                float: none; width: 30%;
+                margin-left: 80%;
+                margin-right: 2%;
+            }
+            .column-subtitle{
+                float:none; width: 96%;
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            .column-footerleft{
+                float: left; width: 300px;
+                height: 35px;
+                position: absolute;
+                left: 20px;
+                top: 1995px;
+                font-size: 13px;
+                font-family: times new roman;
+            }
+            .column-footerright{
+                float: right; width: 400px;
+                position: absolute;
+                right: 20px;
+                top: 1995px;
+                text-align: right;
+                font-size: 13px;
+                font-family: times new roman;
+            }
+            /*Content*/
+            body{
+                background-image: url('http://wallpaper.zone/img/2124910.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            h3{
+                font-family: impact;
+                text-align: center;
+            }
+            p{
+                font-family: times new roman;
+                font-size: 16px;
+            }
+            weekNum{
+                font-family: times new roman;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            img{
+                height:150px;
+                width:250px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--Title-->
+        <header>
+            <h1 style="font-family: Brush Script MT; text-align:center">Peggy Lee's Journal Entries</h1> 
+        </header>
+        <!--Navigation bar-->
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">2016</a>
+                <div class="dropdown-content">
+                    <a href="2016august.html">August</a>
+                    <a href="2016september.html">September</a>
+                    <a href="2016october.html">October</a>
+                    <a href="2016november.html">November</a>
+                    <a href="2016december.html">December</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">2017</a>
+                <div class="dropdown-content">
+                    <a href="2017january.html">January</a>
+                    <a href="2017february.html">February</a>
+                    <a href="2017march.html">March</a>
+                    <a href="2017april.html">April</a>
+                    <a href="2017may.html">May</a>
+                    <a href="2017june.html">June</a>
+                </div>
+            </li>
+        </ul>
+        <br/>
+        <!--Split page-->
+        <div class="container">
+            <div class="column-main">
+                <div class="column-subtitle">
+                    <h3>~~~ September Entries ~~~</h3>
+                </div>
+                <div class="column-text">
+                    <main id="week5">
+                        <br/>
+                        <weekNum>Week 5 <em>&#40;updated on 9/25&#41;</em></weekNum>
+                        <p>On Tuesday, we were introduced to a new line of code, &lt;meta charset=&quot; utf-8&quot; /&gt;, which allows the presence of special characters like Chinese.</p>
+                        <p>While working on HTML Summary 1, we learnt that tags like &lt;header&gt;, &lt;nav&gt;, and &lt;main&gt; are called semantic tags and usually contain blocks of code. Formatting tags, on the other hand, are used to change style or appearance of the text. Like Microsoft Word, HTML allows us to highlight, underline, or cross out certain words. Coding subscript and superscript is also a no-brainer.</p>
+                        <p>Shocked by the fact that &lt;bold&gt; and &lt;italics&gt; function like &lt;strong&gt; and &lt;emphasized&gt;, I pre-studied the basics of CSS. It turned out that only &lt;bold&gt; and &lt;italics&gt; work in CSS.</p>
+                        <p>Thursday&#39;s class reminded me of the days in AP Computer Science last year, when the instructor gave you a difficult task and expected you to figure the code out by yourself. Mr. Fig wanted us to re-create the semantic tags table using &lt;tr&gt;, &lt;td&gt;, rolspan, and colspan. I sort of messed everything up until Vincent Ho helped me out. Because I spent relative more time doing this, I think creating and formatting tables was the central concept of the week.</p>
+                        <p>Except the table assignment, everything was very successful this week. If my brain functioned well enough on Thursday, I could finish the task and continue with Codecademy in class.</p>
+                        <a href = "Images/myPortfolio_htmlSummary1.png"><img src = "Images/myPortfolio_htmlSummary1.png"/></a>
+                        <a href = "Images/myPortfolio_htmlSummary2.png"><img src = "Images/myPortfolio_htmlSummary2.png"/></a>
+                    </main>
+                </div>
+                
+                <hr style="border-top: dotted 3px;" />
+                <div class="column-text">
+                    <main id="week4">
+                        <weekNum>Week 4 <em>&#40;updated on 9/18&#41;</em></weekNum>
+                        <p>To start with, let me introduce my new friend, DIV.
+                        &lt;div&gt;&lt;/div&gt; draws division to the content and allows the programmer to omit &lt;br/&gt; breaks. There is absolutely no problem with using breaks. However, if your content has 100 lines, doing so is just a waste of time and effort.</p>
+                        <p>Following the Web Design and Development I packet, we created an unordered list in each division. Lists are not new to me, since I have practiced them in codecademy a few days in advance. We also linked the homepage with its subpages, including accessibility, usability, and graphics. What amazed me was the code for &quot;skip to main content&quot;.</p>
+                        <p>As stated above, I think the key concept communicated this week is the use of &lt;div&gt; tag and unordered lists. I would like to do more of &quot;skip to __ &quot; &#40;which I think is really cool&#41; if I could repeat this week again.</p>
+                    </main>
+                </div>
+                <hr style="border-top: dotted 3px;" />
+                <div class="column-text">
+                    <main id="week3">
+                        <weekNum>Week 3 <em>&#40;updated on 9/11&#41;</em></weekNum>
+                        <p>We started this week with a group activity, in which we planned out the structure of our HAS School Website. We were told to identify no more than ten major categories and fill them with several minor ones. Although it seemed easy, it took us an entire period to complete the task! Because we usually navigate different types of websites, we have different opinions on how the content should be classified.</p>
+                        <p>On Thursday, we coded the skeleton of our website using HTML. Syntax for this school webpage was similar to that of My First Website. To be honest, linking the homepage to nine different subpages was extremely tedious.</p>
+                        <p>As usual, I disagreed with none of the arguments taught in class.</p>
+                        <p>The central concept communicated this week was to brainstorm your ideas CAREFULLY before coding them out. For example, one of our major categories was &quot;Parent-Teacher Conference Schedule&quot;, which had &quot;Daily School Schedule&quot; under it. I did not realize that they should be reversed until I was done with all the coding. As a consequence, I had to edit all ten webpages, which was not the best way to consume time HAHAHA.</p>
+                        <p>If I could repeat this week, I would double-check to see if all categories are in the right spot before moving on to the IDE.</p>
+                        <a href = "Images/schoolWebsite_outline.png"><img src = "Images/schoolWebsite_outline.png"/></a>
+                    </main>
+                </div>
+                <hr style="border-top: dotted 3px;" />    
+                <div class="column-text">
+                    <main id="week2">
+                        <weekNum>Week 2 <em>&#40;updated on 9/4&#41;</em></weekNum>
+                        <p>The exciting part of Comm Design has finally came! This week, we not only learnt about the basic skeleton, but also tried to mess with the background color, font color, and font size. Moreover, we added links to other websites.</p>
+                        <p>Because I was introduced to HTML as early as 8th Grade, I did not find anything difficult or unfamiliar. Unlike Java and C++, it does not follow algorithms such as divide and conquer. However, its open and close tags act just like the curly brackets of Java methods.</p>
+                        <p>I disagreed none of the concepts discussed in class. Mr. Fig&rsquo;s style of teaching basics was almost the same as Mr. Kerr&rsquo;s did back in Middle School Computer Science.</p>
+                        <p>To me, the most important concept of coding a website is to understand the syntax. A classmate panicked because part of her code did not work as intended. We later found out that she was missing a closing tag at the end of the paragraph.</p>
+                        <p>This week was very successful. If given a chance to repeat it, I would work on my speed of coding. Being an experienced programmer, I should have spent lesser time on the syntax and more time on the design.</p>
+                    </main>
+                </div>  
+            </div>
+            <footer>
+                <div class="column-footerleft">
+                    Copyright &copy; 2016 Peggy Lee
+                </div>
+                <div class="column-footerright">
+                    Have questions? Contact me at lee.peggy1126@gmail.com
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

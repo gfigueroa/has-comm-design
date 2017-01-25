@@ -1,0 +1,230 @@
+#header {
+	position: fixed;
+	height: 70px;
+	background-color: #3B3738;
+	margin-top: -9px;
+	z-index: 2;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-left: -8px;
+}
+#header a {
+	text-decoration: none;
+	color: #A4A4A4;
+	font-family: Verdana;
+	font-weight: bold;
+}
+#header a:hover {
+	color: white;
+}
+.dropbtn {
+	text-decoration: none;
+    color: #A4A4A4;
+    font-family: Verdana;
+	font-weight: bold;
+	background-color: #3B3738;
+	border: none;
+	font-size: 16px;
+	padding-top: 16px;
+}
+.dropdown {
+    display: inline-block;
+	float: right;
+	margin-right: 35px;
+	padding-top: 8px;
+	font-size: 14px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+}
+.dropdown-content a {
+    color: #A4A4A4;
+    padding: 12px 16px;
+	text-decoration: none;
+    display: block;
+	background-color: black;
+}
+.dropdown-content a:hover {
+	color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color: white;
+}
+#home {
+	float: right;
+	margin-right: 35px;
+	padding-top: 8px;
+}
+#about {
+	float: right;
+	margin-right: 35px;
+	padding-top: 8px;
+}
+#title {
+	position: absolute;
+	top: 95px;
+	left: 50px;
+	font-family: Impact;
+	font-size: 250%;
+	font-weight: bold;
+	color: #61210B;
+}
+#content a:hover {
+	font-weight: bold;
+}
+#biology {
+	position: absolute;
+	top: 198px;
+	left: 120px;
+	text-decoration: none;
+	border: 2px solid black;
+	font-family: Impact;
+	color: white;
+	font-size: 155%;
+	text-align: center;
+	width: 255px;
+	height: 220px;
+}
+#biology {
+	background: url("../img/biology.jpg");
+	background-size: 100% 100%;
+}
+#worldliterature {
+	position: absolute;
+	top: 198px;
+	left: 390px;
+	text-decoration: none;
+	border: 2px solid black;
+	width: 255px;
+	height: 220px;
+	font-family: Impact;
+	color: white;
+	font-size: 155%;
+	text-align: center;
+}
+#worldliterature {
+	background: url("../img/worldliterature.jpg");
+	background-size: 100% 100%;
+}
+#physicaleducation {
+	position: absolute;
+	top: 198px;
+	left: 660px;
+	text-decoration: none;
+	border: 2px solid black;
+	font-family: Impact;
+	color: white;
+	font-size: 155%;
+	width: 255px;
+	height: 220px;
+	text-align: center;
+}
+#physicaleducation {
+	background: url("../img/physicaleducation.jpg");
+	background-size: 100% 100%;
+}
+#french1 {
+	position: absolute;
+	top: 198px;
+	left: 930px;
+	text-decoration: none;
+	border: 2px solid black;
+	font-family: Impact;
+	color: white;
+	font-size: 155%;
+	width: 255px;
+	height: 220px;
+	text-align: center;
+}
+#french1 {
+	background: url("../img/french1.jpg");
+	background-size: 100% 100%;
+}
+#algebra2 {
+	position: absolute;
+	top: 438px;
+	left: 120px;
+	text-decoration: none;
+	border: 2px solid black;
+	font-family: Impact;
+	color: white;
+	font-size: 155%;
+	width: 255px;
+	height: 220px;
+	text-align: center;
+}
+#algebra2 {
+	background: url("../img/algebra2.jpg");
+	background-size: 100% 100%;
+}
+#health {
+	position: absolute;
+	top: 438px;
+	left: 390px;
+	text-decoration: none;
+	border: 2px solid black;
+	font-family: Impact;
+	color: white;
+	font-size: 155%;
+	width: 255px;
+	height: 220px;
+	text-align: center;
+}
+#health {
+	background: url("../img/health.jpg");
+	background-size: 100% 100%;
+}
+#worldhistory {
+	position: absolute;
+	top: 438px;
+	left: 660px;
+	text-decoration: none;
+	border: 2px solid black;
+	font-family: Impact;
+	color: white;
+	font-size: 155%;
+	width: 255px;
+	height: 220px;
+	text-align: center;
+}
+#worldhistory {
+	background: url("../img/worldhistory.jpg");
+	background-size: 100% 100%;
+}
+#computerscience {
+	position: absolute;
+	top: 438px;
+	left: 930px;
+	text-decoration: none;
+	border: 2px solid black;
+	font-family: Impact;
+	color: white;
+	font-size: 155%;
+	width: 255px;
+	height: 220px;
+	text-align: center;
+}
+#computerscience {
+	background: url("../img/computerscience.jpg");
+	background-size: 100% 100%;
+}
+#copyright {
+	color: #D8D8D8;
+	font-family: Verdana;
+	font-size: 11px;
+	text-align: center;
+}
+#footer {
+	position: absolute;
+	bottom: 0%;
+	left: 0px;
+	background-color: #7E8F7C;
+	height: 30px;
+	width: 100%;
+}

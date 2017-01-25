@@ -1,0 +1,13 @@
+#footer {
+	position: fixed;
+	height: 60px;
+	background-color: #474A2C;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding-top: 8px;
+	bottom: 0px;
+	width: 99%;
+}

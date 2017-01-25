@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('http://67.media.tumblr.com/2bd5fa839f180d24d517f0275a29298d/tumblr_nksapvF3sV1u92u1zo1_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 858px;
+}
+
+/*Title*/
+#title {
+    margin-left: 12px;
+    font-family: Arial Rounded MT Bold;
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    z-index: 500;
+    background: black;
+    padding: 8px;
+    width: 96.9%;
+    text-align: center;
+    padding-top: 20px;
+}
+#teacher {
+    margin-left: 12px;
+    font-family: Arial Rounded MT Bold;
+    font-size: 14px;
+    color: white;
+    position: fixed;
+    z-index: 400;
+    background: black;
+    padding: 8px;
+    width: 96.9%;
+    text-align: center;
+    padding-top: 20px;
+    top: 40px;
+}
+
+/*Navigation*/
+.nav {
+    margin-left: 12px;
+    position: absolute;
+    top: 80px;
+    background-color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    color: white;
+    width: 96.9%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+}
+.nav li {
+    height: 24px;
+    display:inline;
+}
+.nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-family: Futura;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.nav li a:hover, .dropdown:hover .dropbtn {
+    text-decoration: none;
+    color:yellow;
+}
+.nav li.dropdown {
+    display: inline-block;
+}
+.nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 500;
+}
+.nav .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.nav .dropdown-content a:hover {
+    color: #00FFFF;
+    text-decoration: none;
+}
+.nav .dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+
+/*Content*/
+.content {
+    position: absolute;
+    float: left;
+    top: 127px;
+    background-color: white;
+    left: 12px;
+    width: 96.9%;
+    height: 680px;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Times New Roman;
+}
+.content h2 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.content p {
+    line-height: 25px;
+}
+#summary, #major {
+    padding: 5px;
+}
+.content ul {
+    padding-left: 1.2em;
+    line-height: 25px;
+}
+video {
+    display: block;
+    margin-bottom: 38px;
+}
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul.img-list li {
+    height: 150px;
+    margin: 0 1em 1em 0;
+    position: relative;
+    width: 150px;
+    position: absolute;
+    top: 210px;
+}
+#firstImage {
+    left: 150px;
+}
+#secondImage {
+    right: 450px;
+}
+#ppt {
+    width: 965px;
+    margin-left: auto;
+    margin-right: auto;
+}
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    left: 0;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+ul.img-list li:hover span.text-content {
+    opacity: 1;
+}
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: table;
+    height: 400px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 450px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+#backToTop a{
+    background-color: #151B54;
+    color: white;
+    text-align: center;
+    width: 98.5%;
+    position: absolute;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Footer*/
+footer {
+    position: fixed;
+    float: left;
+    background-color: black;
+    left: 12px;
+    width: 96.9%;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Times New Roman;
+    color: white;
+    /*top: 1210px;
+    margin-bottom: 15px;*/
+    bottom: 0;
+    font-size: 12px;
+}

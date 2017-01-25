@@ -1,0 +1,244 @@
+#header {
+	position: fixed;
+	height: 70px;
+	background-color: #3B3738;
+	margin-top: -35px;
+	z-index: 2;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-left: -8px;
+}
+#header a {
+	text-decoration: none;
+	color: #A4A4A4;
+	font-family: Verdana;
+	font-weight: bold;
+}
+#header a:hover {
+	color: white;
+}
+.dropbtn {
+	text-decoration: none;
+    color: #A4A4A4;
+    font-family: Verdana;
+	font-weight: bold;
+	background-color: #3B3738;
+	border: none;
+	font-size: 16px;
+	padding-top: 16px;
+}
+.dropdown {
+    display: inline-block;
+	float: right;
+	margin-right: 35px;
+	padding-top: 8px;
+	font-size: 14px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+}
+.dropdown-content a {
+    color: #A4A4A4;
+    padding: 12px 16px;
+	text-decoration: none;
+    display: block;
+	background-color: black;
+}
+.dropdown-content a:hover {
+	color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color: white;
+}
+#home {
+	float: right;
+	margin-right: 35px;
+	padding-top: 8px;
+}
+#about {
+	float: right;
+	margin-right: 35px;
+	padding-top: 8px;
+}
+#course {
+	position: relative;
+	top: 100px;
+	left: 80px;
+	color: #8A0808;
+	font-size: 50px;
+	font-family: fantasy;
+	font-weight: 200;
+}
+#coursepic {
+	position: relative;
+	top: 30px;
+	left: 1000px;
+	height: 200px;
+	width: 300px;
+}
+#teacher {
+	position: relative;
+	top: -150px;
+	left: 80px;
+	font-size: 28px;
+	font-family: fantasy;
+	font-weight: 200;
+}
+#description {
+	position: relative;
+	top: -150px;
+	left: 80px;
+	font-size: 18px;
+	font-family: fantasy;
+	font-weight: 200;
+	color: #61210B;
+}
+#project {
+	position: relative;
+	top: -130px;
+	left: 150px;
+	width: 450px;
+	height: 300px;
+}
+#algebra2pic1 {
+	position: relative;
+	top: -140px;
+	left: 150px;
+	width: 280px;
+	height: 200px;
+}
+#algebra2pic2 {
+	position: relative;
+	top: -120px;
+	left: 300px;
+	width: 300px;
+	height: 250px;
+}
+#essay {
+	position: relative;
+	margin-left: 110px;
+	margin-right: 200px;
+	top: -90px;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+#healthproject {
+	position: relative;
+	top: -100px;
+	left: 300px;
+	width: 350px;
+	height: 460px;
+}
+#PEpic1 {
+	position: relative;
+	top: -115px;
+	left: 150px;
+	width: 280px;
+	height: 200px;
+}
+#PEpic2 {
+	position: relative;
+	top: -115px;
+	left: 200px;
+	width: 280px;
+	height: 200px;
+}
+#PEpic3 {
+	position: relative;
+	top: 120px;
+	left: -419px;
+	width: 280px;
+	height: 200px;
+}
+#PEpic4 {
+	position: relative;
+	top: -83px;
+	left: 485px;
+	width: 280px;
+	height: 200px;
+}
+#historyproject {
+	position: relative;
+	left: 150px;
+	top: -100px;
+	width: 700px;
+	height: 420px;
+}
+#commdesignpic1 {
+	position: relative;
+	top: -100px;
+	left: 150px;
+	width: 450px;
+	height: 280px;
+}
+#commdesignpic2 {
+	position: relative;
+	top: -100px;
+	left: 200px;
+	width: 450px;
+	height: 280px;
+}
+#precalcpic1 {
+	position: relative;
+	top: -110px;
+	left: 150px;
+	width: 300px;
+	height: 300px;
+}
+#precalcpic2 {
+	position: relative;
+	top: -110px;
+	left: 220px;
+	width: 350px;
+	height: 250px;
+}
+#precalcpic3 {
+	position: relative;
+	top: 170px;
+	left: -500px;
+	width: 320px;
+	height: 230px;
+}
+#precalcpic4 {
+	position: relative;
+	top: -60px;
+	left: 530px;
+	width: 400px;
+	height: 230px;
+}
+#computersciencepic {
+	position: relative;
+	top: -100px;
+	left: 200px;
+	width: 600px;
+	height: 320px;
+}
+.object{
+	position: relative;
+	left: 150px;
+	top: -100px;
+}
+#stuff {
+	width: 70%;
+	margin-bottom: 5px;
+}
+#copyright {
+	color: #D8D8D8;
+	font-family: Verdana;
+	font-size: 11px;
+	text-align: center;
+}
+#footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-color: #7E8F7C;
+	height: 30px;
+	width: 100%;
+}

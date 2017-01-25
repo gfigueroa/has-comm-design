@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/course.css" type="text/css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+      .mySlides {display:none;}
+    </style>
+    <title>CHEMISTRY</title>
+  </head>
+  <body style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/chembk.jpg')">
+    <div class="name_nav">
+      <h1 id="title">CHEMISTRY (REGULAR)</h1>
+      <hr id="line">
+      <div class="navi">
+        <a href="index.html" id="navbtn">HOME</a>
+        <div class="dropdown">
+          <button class="dropbtn">COURSES</button>
+          <div class="dropdown-content">
+            <a href="201516courses.html">2015 - 2016</a>
+            <a href="201617courses.html">2016 - 2017</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main id="main">
+      <ul>
+        <li>Teacher name: Mr. Hayward</li>
+        <li>Course description:<br>
+          In this course, we learned the basics of chemistry through lectures and lab experiments with Mr. Hayward.
+          Titration is an example of an experiment that we’ve done.
+          Examples of the concepts we covered include types of acids and bases, nomenclature, and balancing chemical formulas.
+          In class, we would listen to Mr. Hayward explain the concepts and then answer a few questions together.
+          Later on, we were often given a worksheet packet to complete.
+          Our homework assignments were normally just to finish the packets given in class.</li>
+        <li>Examples of major work done in the class:</li>
+      </ul>
+      <br>
+        <div class="slideshow">
+          <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides" src="img/Slide1.png" style="width:100%">
+            <img class="mySlides" src="img/Slide2.png" style="width:100%">
+            <img class="mySlides" src="img/Slide3.png" style="width:100%">
+            <img class="mySlides" src="img/Slide4.png" style="width:100%">
+            <img class="mySlides" src="img/Slide5.png" style="width:100%">
+            <img class="mySlides" src="img/Slide6.png" style="width:100%">
+            <img class="mySlides" src="img/Slide7.png" style="width:100%">
+            <img class="mySlides" src="img/Slide8.png" style="width:100%">
+            <img class="mySlides" src="img/Slide9.png" style="width:100%">
+          </div>
+          <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}
+              x[myIndex-1].style.display = "block";
+              setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+            </script>
+        </div>
+    </main>
+    <footer>
+      <div class="social">
+        <div class="menu-social-menu-container"><ul id="menu-social-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2786"><a target="_blank" href="http://www.facebook.com/cathylululu"><i class="fa fa-facebook-f"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2793"><a target="_blank" href="https://twitter.com/itscathydou"><i class="fa fa-twitter"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2796"><a target="_blank" href="https://www.pinterest.com/cathylululu/"><i class="fa fa-pinterest-p"></i></a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2797"><a target="_blank" href="http://instagram.com/itscathydou"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
