@@ -1,0 +1,73 @@
+.name_nav{
+  margin-top: 80px;
+  margin-left: 80px;
+  z-index: 1;
+}
+
+a{
+  text-decoration: none;
+}
+
+#main a:hover { 
+  font-weight: bold;
+  color : lightblue; 
+}
+
+footer a:hover { 
+  color : lightblue; 
+}
+
+#main{
+  margin-left: 200px;
+}
+
+main{
+  width: 900px;
+}
+
+h2{
+  color: white;
+  margin-top: 25px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Georgia, serif;
+}
+
+main li,p{
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Georgia, serif;
+}
+
+#line{
+  width: 90%;
+}
+
+#title{
+  color: white;
+  font-family: Verdana;
+
+}
+.info{
+  margin-top: 5px;
+}
+
+footer{
+  color: white;
+  width: 100%;
+  background-color:black;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
+body{
+  height: 900px;
+}
+
+.navi{
+  color: white;
+  font-family: Verdana;
+}

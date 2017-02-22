@@ -46,7 +46,7 @@ function loadStudent() {
 	
 	// Change header text
 	// jQuery:
-	$('#student-header').text(studentName);
+	$('#student-header').text("Projects - " + studentName);
 	// Vanilla JS equivalent:
 	// document.getElementById('student-header').innerHTML = studentName;
 	
